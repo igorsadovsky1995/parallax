@@ -34,6 +34,9 @@
 .paralax__img-1 {
   background: url("../img/bird.png") center 30%/auto 35% no-repeat;
   z-index: 2;
+  -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);
 }
 
 .paralax__img-2 {
